@@ -1,0 +1,222 @@
+* {
+    margin: 0%;
+    background-color: #efefef;
+}
+
+header,
+.header .nombre {
+    background-color: #364552;
+    padding: 3% 1% 4% 5%;
+
+}
+
+#logo {
+    border-radius: 5px;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    float: inline-start;
+}
+
+
+
+.nombre {
+    margin-right: 60%;
+    margin-left: 3%;
+    margin-top: -2.8%;
+    color: white;
+}
+
+.navegacion {
+    position: relative;
+    color: white;
+    background-color: transparent;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.nav {
+    background-color: #364552;
+}
+
+.nav:hover {
+    color: orange;
+}
+
+.barra-nav {
+    background-color: transparent;
+    margin-left: 60%;
+    margin-top: -6%;
+    margin-bottom: 1.2%;
+}
+
+
+.a-off {
+    text-decoration: none;
+    color:inherit;
+    background-color: transparent;
+    margin-right: 8%;
+}
+
+#fondo-3{
+    width: 100%;
+    height: 80em;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+
+.box-imput{
+    margin-top: 2%;
+    width: 75%;
+    border: 0px solid ;
+    box-shadow: 
+    0 1px 0 #fff, 
+    0 -1px 0 #fff,
+    1px 0 0 #fff, 
+    -1px 0 0 #fff, 
+    0 0 10px rgba(0, 0, 0, 0.471);
+}
+
+
+h3 {
+    margin: 2% 4%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hr-3 {
+    margin-right: 50%;
+    border: 1px solid #364552;
+    background-color: #364552;
+    height: 1em;
+}
+
+
+
+.hr-2 {
+    background-color: #364552;
+    padding: 20px;
+    margin-top: -223px;
+    margin-bottom: 12px;
+    border: transparent;
+    margin-right: 50%;
+    margin-top: 18px;
+}
+
+label {
+    margin: 2%;
+
+}
+
+.p-text {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.checkbox {
+    margin-left: 2%;
+} 
+
+input{
+    height: 1.5em;
+    box-shadow: 
+    0 1px 0 #fff, 
+    0 -1px 0 #fff,
+    1px 0 0 #fff, 
+    -1px 0 0 #fff, 
+    0 0 10px rgba(0, 0, 0, 0.471);
+}
+
+textarea {
+    width: 25em;
+    height: 13em;
+}
+
+button {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 6em;
+    height: 2em;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 21, 0.48);
+}
+
+#fondo-2 {
+    background-color: #364552;
+    height: 410px;
+    width: 100%;
+}
+
+.box-iconos {
+    background-color: transparent;
+    display: flex;
+    flex-direction: space;
+    font-size: 30px;
+    padding: 5%;
+
+}
+
+.icon {
+    padding: 3%;
+    margin-right: 8%;
+    margin-left: 10%;
+    background-color: #efefef;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.icon-whatsapp:hover {
+    color: greenyellow;
+}
+
+.icon-mail4:hover {
+    color: red
+}
+
+.icon-home3:hover {
+    color: orange;
+}
+
+.intro {
+    margin: 0% 10% 0% 15%;
+    text-align: justify;
+    background-color: transparent;
+    color: white
+}
+
+.in-logo {
+    border-radius: 5px;
+    position: relative;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    float: inline-start;
+}
+
+.copy {
+    position: absolute;
+    left: 37%;
+    padding: 3px;
+    background-color: transparent;
+    color: white;
+}

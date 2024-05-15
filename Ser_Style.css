@@ -1,0 +1,280 @@
+* {
+    margin: 0%;
+    background-color: #efefef;
+}
+
+p {
+    background-color: transparent;
+    text-align: justify;
+    padding: 0% 8% 0% 8%;
+}
+
+
+header,
+.header .nombre {
+    background-color: #364552;
+    padding: 3% 1% 4% 5%;
+
+}
+
+#logo {
+    border-radius: 5px;
+    position: relative;
+    margin-top: -5px;
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    float: inline-start;
+}
+
+
+
+.nombre {
+    margin-right: 60%;
+    margin-left: 3%;
+    margin-top: -2.8%;
+    color: white;
+}
+
+.navegacion {
+    position: relative;
+    color: white;
+    background-color: transparent;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.nav {
+    background-color: #364552;
+}
+
+.nav:hover {
+    color: orange;
+}
+
+.barra-nav {
+    background-color: transparent;
+    margin-left: 60%;
+    margin-top: -6%;
+    margin-bottom: 1.2%;
+}
+
+#fondo {
+    padding: 6rem;
+    background-color: #94949459;
+}
+
+.tarjeta {
+    box-shadow: 2px 1px 1px 1px rgba(32, 32, 32, 0.3);
+    text-align: center;
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-right: 5px;
+    margin-left: 60px;
+    width: 300px;
+    height: 350px;
+    perspective: 1000px;
+    border-radius: 5px;
+    border: 4px solid #efefef
+}
+
+
+.tarjeta .front,
+.tarjeta .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+}
+
+.tarjeta .front {
+    background-color: #3c75a7ad;
+    color: white;
+    transform: rotateY(0deg);
+}
+
+.tarjeta .back {
+    background-color: #3c75a7ad;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.tarjeta:hover .front {
+    transform: rotateY(-180deg);
+}
+
+.tarjeta:hover .back {
+    transform: rotateY(0deg);
+}
+
+.tarjeta img {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    height: 65%;
+}
+
+h4 {
+    background-color: transparent;
+    margin: 0%;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-obtener,
+.tarjeta-mas_informacion {
+    position: absolute;
+    margin-top: 80%;
+    padding: 10px;
+    border-radius: 0.5px;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+.tarjeta-obtener {
+    /*BOTONES*/
+    margin-left: 55%;
+    background-color: rgba(26, 187, 8, 0.576);
+}
+
+
+
+.tarjeta-mas_informacion {
+    /*BOTONES*/
+    margin-right: 35%;
+    background-color: rgba(0, 102, 255, 0.199);
+}
+
+hr {
+    background-color: #364552;
+    padding: 20px;
+    margin-top: -223px;
+    margin-bottom: 12px;
+    border: transparent;
+    margin-right: 50%;
+}
+
+.hr-2 {
+    margin-top: 18px;
+}
+
+#fondo-2 {
+    background-color: #364552;
+    height: 410px;
+    width: 100%;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.mas_servicios:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link-mas_servers {
+    padding: 10px;
+    margin: 30px 500px;
+    border-radius: 20px;
+    background-color: rgba(123, 168, 236, 0.395);
+}
+
+.caja-tarjetas {
+    position: relative;
+    width: 75em;
+    height: 100em;
+    background-color: transparent;
+}
+
+.IMG-tarjetas {
+    filter: brightness(60%);
+}
+
+.a-off {
+    text-decoration: none;
+    color:inherit;
+    background-color: transparent;
+    margin-right: 8%;
+}
+
+
+
+.copy {
+    position: absolute;
+    left: 37%;
+    padding: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.box-iconos {
+    background-color: transparent;
+    display: flex;
+    flex-direction: space;
+    font-size: 30px;
+    padding: 5%;
+
+}
+
+.icon {
+    padding: 3%;
+    margin-right: 8%;
+    margin-left: 10%;
+    background-color: #efefef;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.icon-whatsapp:hover {
+    color: greenyellow;
+}
+
+.icon-mail4:hover {
+    color: red
+}
+
+.icon-home3:hover {
+    color: orange;
+}
+
+.intro {
+    margin: 0% 10% 0% 15%;
+    text-align: justify;
+    background-color: transparent;
+    color: white
+}
+
+.in-logo {
+    border-radius: 5px;
+    position: relative;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    float: inline-start;
+}
